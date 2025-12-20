@@ -35,7 +35,7 @@ button {
 
 img {
     display: block;
-    height: 100%;
+
 
 }
 
@@ -110,7 +110,9 @@ img {
 
 /* #region hero  */
 
-.hero .container {}
+.hero {
+    padding: 80px 0 50px;
+}
 
 .wrap {
     display: flex;
@@ -148,12 +150,13 @@ img {
     max-width: 146px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between ;
+    justify-content: space-between;
 
 }
 
 .hero-list {
     display: flex;
+
 }
 
 .hero-list-item:nth-child(2),
@@ -172,3 +175,113 @@ img {
 }
 
 /* #endregion hero */
+
+/* #region  */
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us .container {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.view-catalog-wrap {
+    border-radius: 50px;
+    width: 580px;
+    height: 532px;
+    background: #f3f3f3;
+    padding: 80px 60px;
+}
+
+.about-us-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.about-us-title-descr {
+
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+}
+
+.about-us-subtitle {
+
+
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 40px;
+}
+
+.about-us-link {
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background: #3350e9;
+    padding: 15px 37px 15px 38px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+/* #endregion */
+/* #region catalog */
+
+.catalog {
+    padding: 50px 0;
+}
+
+.catalog-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 23px;
+}
+
+.catalog-item {
+    width: calc((100% - 23px * 2) / 3);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 24px 32px;
+    background: #f3f3f3;
+}
+
+.catalog-subtitle {
+
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    width: 304px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.catalog-item-price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+/* #endregion */
